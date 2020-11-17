@@ -43,7 +43,8 @@ if($_POST["mail_type"] !=''){
     $mail->Debugoutput= 'html'; 
 
     // Set email address for SMTP request
-    $mail->setEmailFrom('worldmedic1software@gmail.com');
+        //company@gmail.com
+    $mail->setEmailFrom('');
 
     // Email to check value from post
     $emailVerify = $get_mail; 
